@@ -1,0 +1,6 @@
+.CodeMirror {
+    height: 50px;
+    max-height: 100px;
+    max-width: 70%;
+    margin-left: 10%;
+}

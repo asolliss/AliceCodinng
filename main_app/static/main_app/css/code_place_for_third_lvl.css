@@ -1,0 +1,15 @@
+.CodeMirror {
+    height: 150px;
+    max-height: 150px;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.div-block{
+    height: 33%;
+}
+
+.submit-button-3, .submit-button-6{
+    margin-top: 12%;
+}

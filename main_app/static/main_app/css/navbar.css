@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 8%;
+    background-color: rgba(210, 143, 255, .32);
+    font-family: 'Marck Script', sans-serif;
+    font-size: 1.3em;
+    line-height: 2em;
+    z-index: 999;
+}
+
+.aa-coding {
+    background-color: transparent;
+    color: #77073d;
+    font-size: 1em;
+    line-height: 1px;
+}
+
+.navbar a {
+    color: #77073d;
+}
+
+#battery{
+    margin-left: 2%;
+    top:0;
+    left:0;
+    position: fixed;
+    width: 7%;
+    height: 8%;
+
+}

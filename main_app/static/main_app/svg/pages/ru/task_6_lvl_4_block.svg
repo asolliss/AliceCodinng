@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 605.8 706" style="enable-background:new 0 0 605.8 706;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD3366;}
+	.st2{font-family:'BradleyHandITCTT-Bold';}
+	.st3{font-size:50px;}
+	.st4{font-size:37px;}
+	.st5{fill:#56B038;}
+</style>
+<rect id="XMLID_2_" class="st0" width="605.8" height="706"/>
+<text id="XMLID_1_" transform="matrix(1 0 0 1 204.6273 60.4267)"><tspan x="0" y="0" class="st1 st2 st3">Задание</tspan><tspan x="-158" y="88.8" class="st1 st2 st4">1.</tspan><tspan x="-128.8" y="88.8" class="st2 st4"> Создай список школьных </tspan><tspan x="-158" y="133.2" class="st2 st4">предметов со значениями </tspan><tspan x="-158" y="177.6" class="st5 st2 st4">English</tspan><tspan x="-27.3" y="177.6" class="st2 st4">, </tspan><tspan x="-8" y="177.6" class="st5 st2 st4">Maths</tspan><tspan x="93" y="177.6" class="st2 st4">, </tspan><tspan x="112.3" y="177.6" class="st5 st2 st4">Art</tspan><tspan x="166.7" y="177.6" class="st2 st4">, </tspan><tspan x="185.9" y="177.6" class="st5 st2 st4">PE</tspan><tspan x="230" y="177.6" class="st2 st4">.</tspan></text>
+<text id="XMLID_57_" transform="matrix(1 0 0 1 46.6274 616.6888)"><tspan x="0" y="0" class="st1 st2 st4">6.</tspan><tspan x="33.3" y="0" class="st2 st4"> Выведи </tspan><tspan x="188.7" y="0" class="st2 st4" style="text-decoration: underline;">количество</tspan><tspan x="384.5" y="0" class="st2 st4"> </tspan><tspan x="0" y="44.4" class="st2 st4">элементов.</tspan></text>
+<text id="XMLID_58_" transform="matrix(1 0 0 1 46.627 519.4581)"><tspan x="0" y="0" class="st1 st2 st4">5.</tspan><tspan x="32.3" y="0" class="st2 st4"> </tspan><tspan x="41.8" y="0" class="st2 st4" style="text-decoration: underline;">Удали</tspan><tspan x="157.7" y="0" class="st2 st4"> первый элемент и </tspan><tspan x="0" y="44.4" class="st2 st4">выведи его на экран.</tspan></text>
+<text id="XMLID_59_" transform="matrix(1 0 0 1 46.6274 457.6988)"><tspan x="0" y="0" class="st1 st2 st4">4.</tspan><tspan x="33" y="0" class="st2 st4"> </tspan><tspan x="42.5" y="0" class="st2 st4" style="text-decoration: underline;">Переверни</tspan><tspan x="217.9" y="0" class="st2 st4"> список.</tspan></text>
+<text id="XMLID_60_" transform="matrix(1 0 0 1 46.6274 354.675)"><tspan x="0" y="0" class="st1 st2 st4">3.</tspan><tspan x="32.1" y="0" class="st2 st4"> </tspan><tspan x="41.6" y="0" class="st2 st4" style="text-decoration: underline;">Добавь</tspan><tspan x="164" y="0" class="st2 st4"> в середину новый </tspan><tspan x="0" y="44.4" class="st2 st4">предмет </tspan><tspan x="151.7" y="44.4" class="st5 st2 st4">History</tspan><tspan x="276.4" y="44.4" class="st2 st4">.</tspan></text>
+<text id="XMLID_61_" transform="matrix(1 0 0 1 46.627 293.7717)"><tspan x="0" y="0" class="st1 st2 st4">2.</tspan><tspan x="32.8" y="0" class="st2 st4"> </tspan><tspan x="42.3" y="0" class="st2 st4" style="text-decoration: underline;">Отсортируй </tspan><tspan x="254.1" y="0" class="st2 st4">по возрастанию.</tspan></text>
+</svg>

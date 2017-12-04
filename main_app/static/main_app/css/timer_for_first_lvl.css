@@ -1,0 +1,13 @@
+#timer {
+    width: 40%;
+    height: 60%;
+    border: solid 7px #b66c98;
+    border-radius: 80px;
+    padding: 20px;
+    text-align: center;
+    font-size: 17pt;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    color: #711a4e;
+    padding-top: 60px;
+}

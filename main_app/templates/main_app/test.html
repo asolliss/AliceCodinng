@@ -1,0 +1,80 @@
+<!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Sat Dec 03 2016 13:49:29 GMT+0000 (UTC) -->
+<html data-wf-domain="anns-first-site-eddd39-e9d348120a6d3717.webflow.io" data-wf-page="58413dafc5de377732c2635d"
+      data-wf-site="58413dafc5de377732c2635e" data-wf-status="1">
+<head>
+    <meta charset="utf-8">
+    {% load i18n %}
+    <title>{% trans 'Test' %}</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <meta http-equiv="cache-control" content="max-age=2628000, public"/>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/58413dafc5de377732c2635e/css/anns-first-site-eddd39-e9d348120a6d3717.webflow.6c1abcaa5.css"
+          rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript">WebFont.load({
+        google: {
+            families: ["Marck Script:regular", "Arima Madurai:regular"]
+        }
+    });
+    </script>
+    {% load i18n %}
+    <script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/5820ad955c2f894f0cf962ac/592475b2db56080e54e0e9f5_alice_green_copy.png"
+          rel="shortcut icon" type="image/x-icon">
+    <link href="https://daks2k3a4ib2z.cloudfront.net/5820ad955c2f894f0cf962ac/592475e05358ed27526e984f_alice_green256.png"
+          rel="apple-touch-icon">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static "main_app/css/navbar.css" %}">
+</head>
+<body class="test-body">
+
+<img id="battery" src="{% static 'main_app/img/Battery'|add:request.session.battery|add:'.png' %}">
+{% include 'main_app/navbar.html' %}
+<div class="w-container" style="margin-top: 5%;">
+    <div><h1 class="label-begin-know">{% trans 'Lets check your knowledge' %}</h1></div>
+</div>
+<div>
+    <div>
+        <ul class="list">
+
+            <div class="w-form">
+                <form class="test-form" data-name="Email Form" id="test-form" action="{% url 'check-test' %}"
+                      method="post">
+                    {% csrf_token %}
+                    {% for quest in test.get_questions %}
+                        <label class="question" for="name"> {{ forloop.counter }}. {{ quest.text }}</label>
+                        <h1 class="code-test-heading">{{ quest.code|linebreaks }}</h1>
+
+                        {% for ans in quest.get_answers %}
+                            <div class="w-clearfix w-radio">
+                                <input class="w-radio-input" data-name="group{{ quest.pk }}" id="radio-{{ ans.pk }}"
+                                       name="group{{ quest.pk }}" type="radio" value="{{ ans.pk }}">
+
+                                <label class="field-label w-form-label" for="radio-{{ ans.pk }}">
+                                    {{ ans.text }}</label>
+                            </div>
+                        {% endfor %}
+
+                    {% endfor %}
+                </form>
+            </div>
+        </ul>
+    </div>
+</div>
+
+{% if res|length == 0 %}
+    <div><a class="test-finish-button w-button" onclick="$('#test-form').submit();">Проверить</a></div>
+{% else %}
+    <div><a href="map.html" class="test-finish-button w-button">Далее</a></div>
+{% endif %}
+<h2>{{ res }}</h2>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>
+<![endif]-->
+</body>
+</html>
+
+<!-- Localized -->
